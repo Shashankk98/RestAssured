@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 23 10:07:45 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24003 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.notes.LogIn_Negative_TCs.loginAsExistingUser_TCS()'><b>loginAsExistingUser_TCS</b><br>Test class: com.notes.LogIn_Negative_TCs<br>Parameters: shashank@abc.com, , 400, Password must be between 6 and 30 characters</td>
+<td></td>
+<td>0</td>
+<td>com.notes.LogIn_Negative_TCs@14cd1699</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_Negative_TCs2.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_Negative_TCs2<br>Parameters: Home, Hom, Done for Home, Title must be between 4 and 100 characters</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_Negative_TCs2@128d2484</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_Negative_TCs2.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_Negative_TCs2<br>Parameters: Work, Work_API, , Description must be between 4 and 1000 characters</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_Negative_TCs2@128d2484</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_Using_File.createNotes()'><b>createNotes</b><br>Test class: com.notes.Create_Notes_Using_File</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_Using_File@47eaca72</td></tr>
+<tr>
+<td title='com.notes.DeleteNotes.createNote()'><b>createNote</b><br>Test class: com.notes.DeleteNotes</td>
+<td></td>
+<td>0</td>
+<td>com.notes.DeleteNotes@5656be13</td></tr>
+<tr>
+<td title='com.notes.LogIn_Negative_TCs.loginAsExistingUser_TCS()'><b>loginAsExistingUser_TCS</b><br>Test class: com.notes.LogIn_Negative_TCs<br>Parameters: shashank@abc.com, shashank, 200, Login successful</td>
+<td></td>
+<td>0</td>
+<td>com.notes.LogIn_Negative_TCs@14cd1699</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_Using_File_UsingBaseClass.createNotes()'><b>createNotes</b><br>Test class: com.notes.Create_Notes_Using_File_UsingBaseClass</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_Using_File_UsingBaseClass@1aafa419</td></tr>
+<tr>
+<td title='com.notes.DeleteNotes.deleteNotes()'><b>deleteNotes</b><br>Test class: com.notes.DeleteNotes</td>
+<td></td>
+<td>0</td>
+<td>com.notes.DeleteNotes@5656be13</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_TCs.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_TCs<br>Parameters: Personal, Personal_API, Done for Personal-Sha</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_TCs@a1153bc</td></tr>
+<tr>
+<td title='com.notes.UpdateNotes.createNote()'><b>createNote</b><br>Test class: com.notes.UpdateNotes</td>
+<td></td>
+<td>0</td>
+<td>com.notes.UpdateNotes@77888435</td></tr>
+<tr>
+<td title='com.notes.Create_Unique_Notes.createNotes()'><b>createNotes</b><br>Test class: com.notes.Create_Unique_Notes</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Unique_Notes@55141def</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_TCs.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_TCs<br>Parameters: Home, Home_API, Done for Home-Sha</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_TCs@a1153bc</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_Negative_TCs2.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_Negative_TCs2<br>Parameters: Personal, , Done for Personal, Title must be between 4 and 100 characters</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_Negative_TCs2@128d2484</td></tr>
+<tr>
+<td title='com.notes.LogIn_Negative_TCs.loginAsExistingUser_TCS()'><b>loginAsExistingUser_TCS</b><br>Test class: com.notes.LogIn_Negative_TCs<br>Parameters: shashank@abccom, shashank, 400, A valid email address is required</td>
+<td></td>
+<td>0</td>
+<td>com.notes.LogIn_Negative_TCs@14cd1699</td></tr>
+<tr>
+<td title='com.notes.UpdateNotes.updateNote()'><b>updateNote</b><br>Test class: com.notes.UpdateNotes</td>
+<td></td>
+<td>0</td>
+<td>com.notes.UpdateNotes@77888435</td></tr>
+<tr>
+<td title='com.notes.GET_Soap_Request.post_Add_Method()'><b>post_Add_Method</b><br>Test class: com.notes.GET_Soap_Request</td>
+<td></td>
+<td>0</td>
+<td>com.notes.GET_Soap_Request@4218d6a3</td></tr>
+<tr>
+<td title='com.notes.LogIn_Negative_TCs.loginAsExistingUser_TCS()'><b>loginAsExistingUser_TCS</b><br>Test class: com.notes.LogIn_Negative_TCs<br>Parameters: shashank@abc.com, asd, 400, Password must be between 6 and 30 characters</td>
+<td></td>
+<td>0</td>
+<td>com.notes.LogIn_Negative_TCs@14cd1699</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_Negative_TCs2.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_Negative_TCs2<br>Parameters: , Title, Done for Personal, Category must be one of the categories: Home, Work, Personal</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_Negative_TCs2@128d2484</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_Negative_TCs2.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_Negative_TCs2<br>Parameters: Work, Work_API, Des, Description must be between 4 and 1000 characters</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_Negative_TCs2@128d2484</td></tr>
+<tr>
+<td title='com.notes.Create_Notes_All_TCs.createNotes_TCS()'><b>createNotes_TCS</b><br>Test class: com.notes.Create_Notes_All_TCs<br>Parameters: Work, Work_API, Done for Work-Sha</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Create_Notes_All_TCs@a1153bc</td></tr>
+<tr>
+<td title='com.notes.LogIn_CreateToken.getToken()'><b>getToken</b><br>Test class: com.notes.LogIn_CreateToken</td>
+<td></td>
+<td>0</td>
+<td>com.notes.LogIn_CreateToken@76505305</td></tr>
+<tr>
+<td title='com.notes.CreateNotes.createNote()'><b>createNote</b><br>Test class: com.notes.CreateNotes</td>
+<td></td>
+<td>0</td>
+<td>com.notes.CreateNotes@55182842</td></tr>
+<tr>
+<td title='com.notes.Delete_All_Notes_Before_Creating.createNotes()'><b>createNotes</b><br>Test class: com.notes.Delete_All_Notes_Before_Creating</td>
+<td></td>
+<td>0</td>
+<td>com.notes.Delete_All_Notes_Before_Creating@235834f2</td></tr>
+<tr>
+<td title='com.notes.LogIn_Negative_TCs.loginAsExistingUser_TCS()'><b>loginAsExistingUser_TCS</b><br>Test class: com.notes.LogIn_Negative_TCs<br>Parameters: , shashank, 400, A valid email address is required</td>
+<td></td>
+<td>0</td>
+<td>com.notes.LogIn_Negative_TCs@14cd1699</td></tr>
+<tr>
+<td title='com.notes.CreateNotesCallingBAseClass.createNotes()'><b>createNotes</b><br>Test class: com.notes.CreateNotesCallingBAseClass</td>
+<td></td>
+<td>0</td>
+<td>com.notes.CreateNotesCallingBAseClass@3270d194</td></tr>
+</table><p>
+</body>
+</html>
