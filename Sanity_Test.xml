@@ -5,7 +5,6 @@
 	</listeners>
   <test name="Sanity_Test">
     <classes>
-      <class name="com.notes.Delete_Notes_Using_UI"/>
       <class name="com.notes.Create_Notes_All_TCs"/>
       <class name="com.notes.Create_Notes_Using_File_UsingBaseClass"/>
       <class name="com.notes.Create_Notes_Using_File"/>

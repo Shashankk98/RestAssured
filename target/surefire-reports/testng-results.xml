@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T12:03:40 IST" name="Parallel Test" finished-at="2024-12-24T12:03:56 IST" duration-ms="15193">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T12:03:40 IST" name="Sanity_Test" finished-at="2024-12-24T12:03:56 IST" duration-ms="15193">
+      <class name="com.notes.UpdateNotes">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.UpdateNotes@121314f7]" started-at="2024-12-24T12:03:53 IST" name="getToken" finished-at="2024-12-24T12:03:53 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNote()[pri:1, instance:com.notes.UpdateNotes@121314f7]" started-at="2024-12-24T12:03:53 IST" name="createNote" finished-at="2024-12-24T12:03:54 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNote -->
+        <test-method signature="updateNote()[pri:2, instance:com.notes.UpdateNotes@121314f7]" started-at="2024-12-24T12:03:54 IST" name="updateNote" finished-at="2024-12-24T12:03:55 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNote -->
+      </class> <!-- com.notes.UpdateNotes -->
+      <class name="com.notes.LogIn_CreateToken">
+        <test-method signature="getToken()[pri:0, instance:com.notes.LogIn_CreateToken@4f80542f]" started-at="2024-12-24T12:03:53 IST" name="getToken" finished-at="2024-12-24T12:03:54 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+      </class> <!-- com.notes.LogIn_CreateToken -->
+      <class name="com.notes.LogIn_Negative_TCs">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.LogIn_Negative_TCs@60bd273d]" started-at="2024-12-24T12:03:52 IST" name="getToken" finished-at="2024-12-24T12:03:53 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="loginAsExistingUser_TCS(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.notes.LogIn_Negative_TCs@60bd273d]" started-at="2024-12-24T12:03:53 IST" name="loginAsExistingUser_TCS" data-provider="LogInTestData" finished-at="2024-12-24T12:03:54 IST" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashank@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shashank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsExistingUser_TCS -->
+        <test-method signature="loginAsExistingUser_TCS(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.notes.LogIn_Negative_TCs@60bd273d]" started-at="2024-12-24T12:03:54 IST" name="loginAsExistingUser_TCS" data-provider="LogInTestData" finished-at="2024-12-24T12:03:55 IST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shashank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A valid email address is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsExistingUser_TCS -->
+        <test-method signature="loginAsExistingUser_TCS(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.notes.LogIn_Negative_TCs@60bd273d]" started-at="2024-12-24T12:03:55 IST" name="loginAsExistingUser_TCS" data-provider="LogInTestData" finished-at="2024-12-24T12:03:55 IST" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashank@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password must be between 6 and 30 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsExistingUser_TCS -->
+        <test-method signature="loginAsExistingUser_TCS(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.notes.LogIn_Negative_TCs@60bd273d]" started-at="2024-12-24T12:03:55 IST" name="loginAsExistingUser_TCS" data-provider="LogInTestData" finished-at="2024-12-24T12:03:55 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashank@abccom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shashank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A valid email address is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsExistingUser_TCS -->
+        <test-method signature="loginAsExistingUser_TCS(java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.notes.LogIn_Negative_TCs@60bd273d]" started-at="2024-12-24T12:03:55 IST" name="loginAsExistingUser_TCS" data-provider="LogInTestData" finished-at="2024-12-24T12:03:56 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shashank@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password must be between 6 and 30 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsExistingUser_TCS -->
+      </class> <!-- com.notes.LogIn_Negative_TCs -->
+      <class name="com.notes.Create_Notes_All_TCs">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.Create_Notes_All_TCs@273e7444]" started-at="2024-12-24T12:03:44 IST" name="getToken" finished-at="2024-12-24T12:03:45 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.notes.Create_Notes_All_TCs@273e7444]" started-at="2024-12-24T12:03:53 IST" name="createNotes_TCS" data-provider="create_note" finished-at="2024-12-24T12:03:54 IST" duration-ms="840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Home_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Home-Sha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.notes.Create_Notes_All_TCs@273e7444]" started-at="2024-12-24T12:03:54 IST" name="createNotes_TCS" data-provider="create_note" finished-at="2024-12-24T12:03:55 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Work_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Work-Sha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.notes.Create_Notes_All_TCs@273e7444]" started-at="2024-12-24T12:03:55 IST" name="createNotes_TCS" data-provider="create_note" finished-at="2024-12-24T12:03:55 IST" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Personal_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Personal-Sha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+      </class> <!-- com.notes.Create_Notes_All_TCs -->
+      <class name="com.notes.CreateNotes">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.CreateNotes@3527942a]" started-at="2024-12-24T12:03:40 IST" name="getToken" finished-at="2024-12-24T12:03:44 IST" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNote()[pri:0, instance:com.notes.CreateNotes@3527942a]" started-at="2024-12-24T12:03:53 IST" name="createNote" finished-at="2024-12-24T12:03:54 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNote -->
+      </class> <!-- com.notes.CreateNotes -->
+      <class name="com.notes.Create_Notes_Using_File_UsingBaseClass">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.Create_Notes_Using_File_UsingBaseClass@2d52216b]" started-at="2024-12-24T12:03:46 IST" name="getToken" finished-at="2024-12-24T12:03:46 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes()[pri:0, instance:com.notes.Create_Notes_Using_File_UsingBaseClass@2d52216b]" started-at="2024-12-24T12:03:53 IST" name="createNotes" finished-at="2024-12-24T12:03:54 IST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes -->
+      </class> <!-- com.notes.Create_Notes_Using_File_UsingBaseClass -->
+      <class name="com.notes.Delete_All_Notes_Before_Creating">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.Delete_All_Notes_Before_Creating@1ed6388a]" started-at="2024-12-24T12:03:47 IST" name="getToken" finished-at="2024-12-24T12:03:52 IST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes()[pri:0, instance:com.notes.Delete_All_Notes_Before_Creating@1ed6388a]" started-at="2024-12-24T12:03:53 IST" name="createNotes" finished-at="2024-12-24T12:03:54 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes -->
+      </class> <!-- com.notes.Delete_All_Notes_Before_Creating -->
+      <class name="com.notes.DeleteNotes">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.DeleteNotes@5a45133e]" started-at="2024-12-24T12:03:47 IST" name="getToken" finished-at="2024-12-24T12:03:47 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNote()[pri:1, instance:com.notes.DeleteNotes@5a45133e]" started-at="2024-12-24T12:03:53 IST" name="createNote" finished-at="2024-12-24T12:03:54 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNote -->
+        <test-method signature="deleteNotes()[pri:2, instance:com.notes.DeleteNotes@5a45133e]" started-at="2024-12-24T12:03:54 IST" name="deleteNotes" finished-at="2024-12-24T12:03:55 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNotes -->
+      </class> <!-- com.notes.DeleteNotes -->
+      <class name="com.notes.CreateNotesCallingBAseClass">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.CreateNotesCallingBAseClass@942a29c]" started-at="2024-12-24T12:03:44 IST" name="getToken" finished-at="2024-12-24T12:03:44 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes()[pri:0, instance:com.notes.CreateNotesCallingBAseClass@942a29c]" started-at="2024-12-24T12:03:53 IST" name="createNotes" finished-at="2024-12-24T12:03:54 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes -->
+      </class> <!-- com.notes.CreateNotesCallingBAseClass -->
+      <class name="com.notes.Create_Unique_Notes">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.Create_Unique_Notes@3f6f6701]" started-at="2024-12-24T12:03:46 IST" name="getToken" finished-at="2024-12-24T12:03:47 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes()[pri:0, instance:com.notes.Create_Unique_Notes@3f6f6701]" started-at="2024-12-24T12:03:53 IST" name="createNotes" finished-at="2024-12-24T12:03:54 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes -->
+      </class> <!-- com.notes.Create_Unique_Notes -->
+      <class name="com.notes.GET_Soap_Request">
+        <test-method signature="post_Add_Method()[pri:0, instance:com.notes.GET_Soap_Request@534a5a98]" started-at="2024-12-24T12:03:53 IST" name="post_Add_Method" finished-at="2024-12-24T12:03:54 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Add_Method -->
+      </class> <!-- com.notes.GET_Soap_Request -->
+      <class name="com.notes.Create_Notes_Using_File">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.notes.Create_Notes_Using_File@242b836]" started-at="2024-12-24T12:03:45 IST" name="getToken" finished-at="2024-12-24T12:03:46 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes()[pri:0, instance:com.notes.Create_Notes_Using_File@242b836]" started-at="2024-12-24T12:03:53 IST" name="createNotes" finished-at="2024-12-24T12:03:54 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes -->
+      </class> <!-- com.notes.Create_Notes_Using_File -->
+    </test> <!-- Sanity_Test -->
+  </suite> <!-- Parallel Test -->
+</testng-results>
