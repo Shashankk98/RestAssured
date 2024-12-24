@@ -29,8 +29,8 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>Sanity_Test.xml</suiteXmlFile>
-						<!--suiteXmlFile>${xmlFilePath}</suiteXmlFile> -->
+						<!--<suiteXmlFile>Sanity_Test.xml</suiteXmlFile> -->
+						<suiteXmlFile>${xmlFilePath}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
